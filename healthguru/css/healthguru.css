@@ -225,7 +225,8 @@ header .intro-text .skills {
 }
 
 #form-container input {
-  border: 1px solid black;
+  border: none;
+  font-size: 1.4em;
   padding: 12px 20px;
   width: 100%;
 }
@@ -244,7 +245,7 @@ header .intro-text .skills {
   background-color: #ff9900;
   border: none;
   color: white;
-  font-size: 20px;
+  font-size: 1.4em;
   font-weight: 700;
   padding: 12px 20px;
 }
