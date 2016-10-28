@@ -98,14 +98,12 @@ header {
 
 
 
-
-
 #form-container {
   background-color: #0596d5;
   margin: -150px auto 60px auto;
   padding: 3%;
   text-align: center;
-  width: 65%;
+  width: 60%;
   -webkit-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
   -moz-box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
   box-shadow: 0px 0px 25px 0px rgba(0,0,0,0.5);
@@ -145,6 +143,7 @@ header {
   font-size: 1.4em;
   font-weight: 700;
   padding: 12px 20px;
+  width: 100%;
 }
 
 
@@ -152,17 +151,6 @@ header {
 #form-container * {
   z-index: 2;
 }
-
-
-
-
-@media (min-width: 767px) {
-#form-container h2 {
-  margin: 0;
-  font-size: 3em;
-}
-}
-
 
 footer {
   color: white;
@@ -172,4 +160,27 @@ footer {
 footer .footer-below {
   padding: 25px 0;
   background-color: #333333;
+}
+
+
+@media (min-width: 767px) {
+#form-container h2 {
+  margin: 0;
+  font-size: 3em;
+}
+}
+
+@media (max-width: 768px) {
+#form-container {
+  width: 90%;
+}
+
+#form-container button {
+  margin: 20px 0px;
+}
+
+.navbar-custom .phone {
+  text-align: center;
+}
+
 }
