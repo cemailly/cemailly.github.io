@@ -51,6 +51,17 @@ header {
   min-height: 400px;
 }
 
+
+@media (max-width: 960px) {
+
+header {
+  background-position-y: 75px !important;
+  background-position-x: center !important;
+}
+
+}
+
+
 header.forms {
   text-align: center;
   background: none;
