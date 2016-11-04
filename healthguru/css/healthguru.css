@@ -44,11 +44,18 @@ h6 {
 
 header {
   text-align: center;
-  background: url(http://image.shutterstock.com/display_pic_with_logo/76219/218199787/stock-photo-smiling-doctor-with-fellow-doctors-standing-behind-her-218199787.jpg);
+  background: url(../img/img-header-healthguru.png);
   background-size: cover;
   background-repeat: no-repeat;
   color: white;
   min-height: 400px;
+}
+
+header.forms {
+  text-align: center;
+  background: none;
+  background-color: #0596d5;
+  min-height: 115px;
 }
 
 .body-copy {
@@ -67,6 +74,7 @@ header {
 }
 
 .navbar-custom .phone {
+  padding: 10px;
   text-align: right;
 }
 
@@ -182,7 +190,7 @@ button {
 }
 
 input, select {
-  margin: 4px 0px;
+  
   padding: 6px 10px;
 }
 
