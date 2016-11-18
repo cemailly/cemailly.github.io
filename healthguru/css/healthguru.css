@@ -226,7 +226,13 @@ footer .footer-below {
   }
 }
 
+@media (max-width: 480px) {
 
+  .navbar-fixed-bottom, .navbar-fixed-top {
+    position: absolute;
+  }
+
+}
 
 @media (max-width: 768px) {
   #form-container {
@@ -239,7 +245,7 @@ footer .footer-below {
 
   .navbar-custom .navbar-brand {
     margin: 10px 0px;
-    max-width: 100%;
+    max-width: 100%;  
     text-align: center;
     width: 100%;
   }
