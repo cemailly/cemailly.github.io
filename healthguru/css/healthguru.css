@@ -226,15 +226,15 @@ footer .footer-below {
   }
 }
 
-@media (max-width: 480px) {
+  
+
+@media (max-width: 767px) {
 
   .navbar-fixed-bottom, .navbar-fixed-top {
     position: absolute;
+
   }
 
-}
-
-@media (max-width: 768px) {
   #form-container {
     width: 90%;
   }
