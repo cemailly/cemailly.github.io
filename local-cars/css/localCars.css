@@ -1,0 +1,134 @@
+html, body {
+	font-family: Lato, sans-serif;
+ 	max-width: 100%;
+    overflow-x: hidden;
+}
+
+img {
+	max-width: 100%;
+	overflow: hidden;
+}
+
+h1, h2, h3 {
+	margin-top: 0;
+	margin-bottom: 1em;
+}
+
+footer {
+	background-color: #e4e4e4;
+}
+
+
+.hero-image {
+	min-height: 250px;
+	background-image: url(https://localcarsforless.com/img/makes/Subaru/Outback.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: 50% 50%;
+}
+
+
+.item-list {
+	border-bottom: 1px solid #666;
+	border-spacing: .5em;
+	margin-left: .25em;
+    margin-right: .25em;
+}
+
+
+.item-list img {
+	width: 100%;
+
+}
+
+.logo-container {
+	background-color: rgba(255,255,255,.75);
+	padding: 1em;
+	display: flex;
+	justify-content: center; /* align horizontal */
+	align-items: center; /* align vertical */
+}
+
+
+img.logo  {
+	max-height: 70px;
+	width: auto;
+}
+
+
+.phone-number {
+	color: #453b9f;
+	font-size: 1.75em;
+	font-weight: 900;
+}
+
+.alert-bar {
+	background-color: #89cf41;
+	color: white;
+	font-size: 1.25em;
+	padding: .5em;
+}
+
+/*Form Styling*/
+
+.form-container select, .form-container input {
+	width: 100%;
+	margin-bottom: 1em;
+}
+
+.form-container select.half, .form-container input.half {
+	width: 35%;
+}
+
+input {
+	padding: .5em;
+}
+
+.form-container {
+	background-color: #e4e4e4;
+	padding: 1.5em;
+}
+
+.btn-primary {
+	background-color: #8cc152;
+	border: none;
+}
+
+.btn-primary:hover {
+	background-color: #598233;
+}
+
+.btn-primary:focus, .btn-primary:active {
+	background-color: #453b9f;
+}
+
+.inactive {
+	opacity: .5;
+}
+
+
+/*Margins and Padding*/
+
+.mtb {
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.mtb-2 {
+	margin-top: 2em;
+	margin-bottom: 2em;
+}
+
+
+.ptb {
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+
+.plr {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+
+
