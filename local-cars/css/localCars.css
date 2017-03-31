@@ -81,13 +81,14 @@ img.logo  {
 
 
 .phone-number {
-	color: #453b9f;
+	color: #2274A5;
 	font-size: 1.75em;
 	font-weight: 900;
+	font-style: italic;
 }
 
 .alert-bar {
-	background-color: #89cf41;
+	background-color: #00CC66;
 	color: white;
 	font-size: 1.25em;
 	padding: .5em;
@@ -146,16 +147,16 @@ input {
 
 
 .btn-primary {
-	background-color: #8cc152;
+	background-color: #00CC66;
 	border: none;
 }
 
 .btn-primary:hover {
-	background-color: #598233;
+	background-color: #2274A5;
 }
 
 .btn-primary:focus, .btn-primary:active {
-	background-color: #453b9f;
+	background-color: #2274A5;
 }
 
 .inactive {
