@@ -33,6 +33,17 @@ footer {
 	margin-left: 1em;
 }
 
+select.error, input.error {
+	border: 2px solid #da0000;
+}
+
+.error-messaging {
+	color: #da0000;
+	font-size: .9em;
+	margin-top: -.5em;
+	margin-bottom: 1em;
+}
+
 .hero-image {
 	min-height: 250px;
 	background-image: url(https://localcarsforless.com/img/makes/Subaru/Outback.jpg);
@@ -116,7 +127,6 @@ input.btn-change-zip {
 
 
 input[type="checkbox"] {
-	margin-left: -1em;
 	margin-right: 1em;
 }
 
@@ -139,6 +149,7 @@ label {
 input {
 	padding: .5em;
 }
+
 
 .form-container {
 	background-color: #e4e4e4;
@@ -185,6 +196,15 @@ input {
 .plr {
 	padding-left: 1em;
 	padding-right: 1em;
+}
+
+/*Page-specific styles*/
+
+.col-sm-10 .dealer {
+    margin: 1em 0;
+    display: inline-block;
+    float: left;
+    width: 25%;
 }
 
 
