@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<!-- saved from url=(0057)http://19words.com/temp/showUsed.php?id=1728116&zip=02135 -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="">
+<meta name="author" content="">
+
+<title>Your Car, Your Price, Your Way, LocalCarsForLess.com</title>
+<!--<base href="http://19words.com/temp/">--><base href=".">
+
+<!-- Fonts -->
+<link href="./invensoty-search-contactForm_files/css" rel="stylesheet">
+
+
+<link href="./invensoty-search-contactForm_files/bootstrap.min.css" rel="stylesheet">
+<link href="./invensoty-search-contactForm_files/localCars.css" rel="stylesheet">
+
+<!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+<!--[if lt IE 9]>
+<script src="https://oss.maxcdn.com/libs/html5shiv/3.7.3/html5shiv.js"></script>
+<script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+<![endif]-->
+
+<!-- jQuery -->
+<script src="./invensoty-search-contactForm_files/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous"></script>
+
+<script src="./invensoty-search-contactForm_files/jquery.maskedinput.min.js"></script>
+<script src="./invensoty-search-contactForm_files/jquery.watermark.min.js"></script>
+
+<!-- Bootstrap Core JavaScript -->
+<script src="./invensoty-search-contactForm_files/bootstrap.min.js"></script>
+
+<!-- Plugin JavaScript -->
+<script src="./invensoty-search-contactForm_files/jquery.easing.min.js"></script>
+
+
+<link rel="stylesheet" type="text/css" href="./invensoty-search-contactForm_files/jquery-ui.css">
+<script src="./invensoty-search-contactForm_files/jquery.customSelect.min.js"></script>
+<script src="./invensoty-search-contactForm_files/jquery-ui.min.js"></script>
+<script src="./invensoty-search-contactForm_files/jquery.blockUI.js"></script>
+<style id="style-1-cropbar-clipper">/* Copyright 2014 Evernote Corporation. All rights reserved. */
+.en-markup-crop-options {
+  top: 18px !important;
+  left: 50% !important;
+  margin-left: -100px !important;
+  width: 200px !important;
+  border: 2px rgba(255,255,255,.38) solid !important;
+  border-radius: 4px !important;
+}
+
+.en-markup-crop-options div div:first-of-type {
+  margin-left: 0px !important;
+}
+</style></head>
+
+<body>
+  <header>
+    <div class="container-fluid hero-image">
+      <div class="row logo-container">
+        <div class="col-sm-6">
+          <img class="logo" src="./invensoty-search-contactForm_files/logo-localCarsforLess-2.png">
+        </div>
+        <div class="col-sm-6 text-right phone-number">
+          <a href="tel:"></a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+
+
+  <script>
+  function te( field, event ) 
+  {
+    $.get( "http://www.19words.com/temp/api/te.php",
+      { f: field, e: event },
+      function( data ) {
+      },
+      "json"
+      );
+  }
+
+// jQuery plugin to prevent double submission of forms
+jQuery.fn.preventDoubleSubmission = function() {
+  $(this).bind('submit',function(e){
+    var $form = $(this);
+
+    if ($form.data('submitted') === true) {
+// Previously submitted - don't submit again
+e.preventDefault();
+} else {
+// Mark it so that the next submit can be ignored
+$form.data('submitted', true);
+}
+});
+
+// Keep chainability
+return this;
+}; 
+</script>
+
+
+<div class="container usedListings">
+  <div class="carDetail">
+
+    <div class="row">
+      <div class="col-sm-10 col-sm-offset-1 mtb text-center">
+
+
+
+        <div id="BgDiv" class="usedCarBG"></div>
+        <div id="InfoDiv" class="usedCarInfo"></div><h2>2013 Toyota Camry LE - $12499</h2>
+
+      </div> <!-- col -->
+    </div> <!-- row -->
+
+
+<script>var allImages = new Array();	allImages[0] = "";// *************** Code to show all car images and to let the user switch them
+function drawCarImages(newLead)
+{
+  var imgSrcPrefix = "http://img.leaddelivery.net/images/4T1BF1FK4DU277427/Supersized/";
+  var imgSrcSuffix = ".jpg?s=0000-2979";
+  var carImageContainerObj = document.getElementById("carImageContainer");
+  carImageContainerObj.innerHTML = "<img src=\"" + imgSrcPrefix + allImages[newLead] + imgSrcSuffix + "\"  width=\"480\" height=\"360\" /><br />";
+  for (var x = 0; x < allImages.length; x++)
+    carImageContainerObj.innerHTML += "<img class=\"smallCarDetail\" onclick=\"drawCarImages(" + x + ")\" src=\"" + imgSrcPrefix + allImages[x] + imgSrcSuffix + "\"  width=\"80\" height=\"60\" />";
+}
+$(document).ready(function()
+{
+  drawCarImages(0);
+});
+</script>
+
+
+<div class="row">
+
+  <div class="col-sm-3 col-sm-offset-1">
+
+    <div class="usedCarTable">
+      <div id="carImageContainer"><img src="./invensoty-search-contactForm_files/jpg" width="480" height="360"><br><img class="smallCarDetail" onclick="drawCarImages(0)" src="./invensoty-search-contactForm_files/jpg" width="80" height="60"></div>
+    </div>
+
+
+
+  </div> <!-- lefthand column -->
+
+  <div class="col-sm-7">
+
+    <div class="usedForm">This Car is Available Now! <br/> To express your interest in this vehicle, please complete the form below. The dealer will contact you to discuss your purchase.
+      <form action="http://19words.com/temp/thankYouUsed.php" method="POST" id="contactForm">
+        Hello,my name is <input type="text" class="customSelect" style="width: 114px; background-image: url(&quot;data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAfBJREFUWAntVk1OwkAUZkoDKza4Utm61iP0AqyIDXahN2BjwiHYGU+gizap4QDuegWN7lyCbMSlCQjU7yO0TOlAi6GwgJc0fT/fzPfmzet0crmD7HsFBAvQbrcrw+Gw5fu+AfOYvgylJ4TwCoVCs1ardYTruqfj8fgV5OUMSVVT93VdP9dAzpVvm5wJHZFbg2LQ2pEYOlZ/oiDvwNcsFoseY4PBwMCrhaeCJyKWZU37KOJcYdi27QdhcuuBIb073BvTNL8ln4NeeR6NRi/wxZKQcGurQs5oNhqLshzVTMBewW/LMU3TTNlO0ieTiStjYhUIyi6DAp0xbEdgTt+LE0aCKQw24U4llsCs4ZRJrYopB6RwqnpA1YQ5NGFZ1YQ41Z5S8IQQdP5laEBRJcD4Vj5DEsW2gE6s6g3d/YP/g+BDnT7GNi2qCjTwGd6riBzHaaCEd3Js01vwCPIbmWBRx1nwAN/1ov+/drgFWIlfKpVukyYihtgkXNp4mABK+1GtVr+SBhJDbBIubVw+Cd/TDgKO2DPiN3YUo6y/nDCNEIsqTKH1en2tcwA9FKEItyDi3aIh8Gl1sRrVnSDzNFDJT1bAy5xpOYGn5fP5JuL95ZjMIn1ya7j5dPGfv0A5eAnpZUY3n5jXcoec5J67D9q+VuAPM47D3XaSeL4AAAAASUVORK5CYII=&quot;); background-repeat: no-repeat; background-attachment: scroll; background-size: 16px 18px; background-position: 98% 50%;" name="first" value="" id="first">&nbsp;&nbsp;
+        <input type="text" class="customSelect" style="width: 114px;" name="last" value="" id="last">.<br><br>
+        I live in <input type="number" class="customSelect" style="width: 114px;" name="zip" value="02135" id="zip"><br><br>
+        Please email me at <input type="email" class="customSelect" style="width: 228px;" name="email" value="" id="email"><br><br>
+        or call me at <input type="tel" class="customSelect" style="width: 228px;" name="homePhone" value="" id="homePhone"> with informaion about this vehicle. Thank you!<br><br>
+        <input type="hidden" name="id" value="1728116">
+        <input type="submit" value="Submit" class="submitButton btn-primary btn-lg mtb">
+      </form>
+
+      By submitting this quote request, I am expressly consenting to be contacted by the vehicle dealer(s) I select and/or the automobile manufacturer(or by their respective agents or representatives) via the phone number(s) I provided for marketing purposes through use of automatic telephone dialing systems,  SMS texts or artificial or prerecorded voice messages. This consent is not required as a condition to purchase services or products.
+      <script>
+      function setEventsAndMarks()
+      {
+        $('#homePhone').mask('(999)999-9999');
+        $('#first').watermark('First Name');
+        $('#first').focus( function() { te("first", "focus" ) } );
+        $('#first').change( function() { te("first", "change" ) } );
+        $('#last').watermark('Last Name');
+        $('#last').focus( function() { te("last", "focus" ) } );
+        $('#last').change( function() { te("last", "change" ) } );
+        $('#zip').watermark('Zip Code');
+        $('#zip').focus( function() { te("zip", "focus" ) } );
+        $('#zip').change( function() { te("zip", "change" ) } );
+        $('#homePhone').watermark('Phone Number');
+        $('#homePhone').focus( function() { te("homePhone", "focus" ) } );
+        $('#homePhone').change( function() { te("homePhone", "change" ) } );
+        $('#email').watermark('Email');
+        $('#email').focus( function() { te("email", "focus" ) } );
+        $('#email').change( function() { te("email", "change" ) } );
+      }
+      $(window).unload( function() { te("page", "unload" ) } );
+      setEventsAndMarks();
+
+//************** Code to hide/show car options or car description
+function showData(dataType, data)
+{
+  document.getElementById("InfoDiv").innerHTML = "<table align='center' style='margin:1px'>" +
+  "<tr><th style='vertical-align:50%; color:black; background-color: #B8B8B8; font-size:18px; padding:5px'>" + dataType + 
+  "<img align='right' onclick='hideData()' src='img/icon_error.png' style='width:24px;height:24px; cursor: pointer' /></th></tr>" +
+  "<tr><td colspan='2' valign='top' style='color:black; font-size:14px; vertical-align:top; padding:5px; font-weight: normal'>" + data + "</td></tr></table>";
+
+// height isn't specified for .carDetail in lcfl.css; just a minimum height
+$("#BgDiv").css('height', $('.carDetail').height() + 'px');
+// Show infoDiv within the current window view
+$("#InfoDiv").css('top', (window.pageYOffset + 1) + 'px');
+$("#BgDiv").show();
+$("#InfoDiv").show();
+}
+
+function hideData()
+{
+  $("#BgDiv").hide();
+  $("#InfoDiv").hide();
+}
+</script>
+
+</div> <!-- used form -->
+
+<div class="row"> <!-- nested row -->
+
+  <div class="col-sm-6">
+
+    <table class="showListing mtb">
+      <tbody><tr><td colspan="2"><h3 style="color:black">Listing summary</h3></td></tr>
+        <tr><td colspan="2">&nbsp;</td></tr><tr><th>Selling Price:</th><th>$12499.00</th></tr><tr><th>Location:</th><td>Westborough, MA</td></tr><tr><th>Mileage:</th><td>50138</td></tr><tr><th>Transmission:</th><td>Automatic</td></tr><tr><th>External Color:</th><td>Magnetic Gray Metallic</td></tr><tr><th>Internal Color:</th><td>Ash With Cloth</td></tr><tr><th>Gas Mileage:</th><td>25 MPG City<br>35 MPG Highway</td></tr><tr><th>VIN:</th><td>4T1BF1FK4DU277427</td></tr><tr><th>Options:</th><td class="link" onclick="showData(&#39;Options&#39;, &#39;2013 Toyota Camry Le, Do You Want It All, Especially Great Gas Mileage,  Well, With This Great-Looking 2013 Toyota Camry, You Are Going To Get It.. 80% Of Toyotas Sold In The Last 20 Years Are Still On The Road Today. Procures 35-Mpg Highway! This Camry Is Nicely Equipped With Features Such As Abs Brakes, Ash W/Fabric Seat Trim, Carfax One Owner, Clean Carfax, Electronic Stability Control, Illuminated Entry, Low Tire Pressure Warning, Remote Keyless Entry, And Traction Control. Toyota Certified Pre-Owned Means You Not Only Get The Reassurance Of A 12Mo/12, 000 Mile Comprehensive Warranty, But Also Up To A 7Yr/100, 000-Mile Powertrain Limited Warranty, A 160-Point Inspection/Reconditioning, 1Yr Roadside Assistance, Trip-Interruption Services, Rental Car Benefits, And A Complete Carfax Vehicle History Report. Westboro Toyota, Right People, Right Price, Right Now - You Asked And We Listened, No More Wasted Time Of The Back And Forth Haggling For Your Best Price. We Do The Work For You! We Post Our Westboro Toyota Right Price On The Windshield Of Our Vehicles For Everyone To See. Our Product Specialists Are Not Paid On Commission, They\&#39;re Paid On Your Satisfaction Your Goal And Ours Are The Same, To Find You The Very Best Vehicle That Fits Your Needs At The Lowest Price. Experience The Difference Today At Westboro Toyota Minutes From Everywhere On Rt 9 In Westborough Ma. Please Call Us Today If You Would Like Any Further Information About This Or Any Of Our Vehicles At 855.820.6131., Miles: 50138Color: Magnetic Gray Metallic, Stock #P47303, Vin: 4T1bf1fk4du277427, &#39;)">Read options</td></tr></tbody></table>
+
+      </div> <!-- col -->
+
+      <div class="col-sm-6">
+
+        <table class="showListing mtb">
+          <tbody><tr><td colspan="2"><h3 style="color:black">Dealer Info</h3></td></tr>
+            <tr><td colspan="2">&nbsp;</td></tr><tr><th>WESTBORO TOYOTA </th></tr><tr><td>271 TURNPIKE RD </td></tr><tr><td>WESTBOROUGH, MA 01581</td></tr><tr><td><a href="https://maps.google.com/maps?saddr=02135&amp;daddr=271%20TURNPIKE%20RD+WESTBOROUGH,+MA+01581" target="top">Map and directions</a></td></tr></tbody></table>
+
+          </div> <!-- col -->
+        </div> <!-- nested row -->
+
+      </div> <!-- col -->
+
+    </div> <!-- row -->
+
+    <div class="row mtb-2">
+      <div class="col-sm-4 col-sm-offset-2">
+
+
+
+      </div> <!-- col -->
+
+      <div class="col-sm-4">
+
+
+
+      </div> <!-- col -->
+    </div> <!-- row -->
+  </div> <!-- carDetail -->
+</div> <!-- container, usedlistings -->
+
+<footer>
+  <div class="container-fluid">
+    <div class="row ptb plr">
+      <div class="col-sm-12 text-center"><p><a href="https://localcarsforless.com/tou.php">Terms Of Use</a> | <a href="https://localcarsforless.com/privacy.php">Privacy Policy</a> | <a href="https://plus.google.com/108969011647275460539">Google+</a> </p>
+        <p>Copyright 2017, Usenio, LLC</p>
+      </div>          
+    </div>
+  </div>
+</footer>
+<div id="window-resizer-tooltip" style="display: block;"><a href="http://19words.com/temp/#" title="Edit settings"></a><span class="tooltipTitle">Window size: </span><span class="tooltipWidth" id="winWidth">1280</span> x <span class="tooltipHeight" id="winHeight">773</span><br><span class="tooltipTitle">Viewport size: </span><span class="tooltipWidth" id="vpWidth">1280</span> x <span class="tooltipHeight" id="vpHeight">655</span></div></body></html>
